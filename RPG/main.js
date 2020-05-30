@@ -6,16 +6,16 @@ $(document).ready(function() {
     ctx = $("#myCanvas")[0].getContext("2d");
 
     imgMain = new Image();
-    imgMain.src = "RPG/images/spriteSheet.png";
+    imgMain.src = "./RPG/images/spriteSheet.png";
     currentImgMainX = 0;
     currentImgMainY = 0;
     imgMain.onload = function() {
         ctx.drawImage(imgMain, 0, 0, 80, 130, currentImgMainX, currentImgMainY, 200, 200);
     };
     imgMountain = new Image();
-    imgMountain.src = "RPG/images/material.png";
+    imgMountain.src = "./RPG/images/material.png";
     imgEnemy = new Image();
-    imgEnemy.src = "RPG/images/Enemy.png";
+    imgEnemy.src = "./RPG/images/Enemy.png";
     imgMountain.onload = function() {
         imgEnemy.onload = function() {
             for (let x in mapArray) {
