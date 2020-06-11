@@ -1,10 +1,10 @@
 let playList = [
-    "ma7r2HGqwXs",
-    "MJnzEa0FSKk",
-    "7NN4RlKspW0"
+    "ACRSpFkcJb4",
+    "cFxLKllTlYg",
+    "odFAXmF8N0o"
 ];
 let playTime = [
-    [57,60],
-    [79,83],
-    [76,80]
+    [218, 235],
+    [184, 199],
+    [179, 193]
 ]
