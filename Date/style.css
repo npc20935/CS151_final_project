@@ -1,17 +1,18 @@
-body{
+body {
     text-align: center;
 }
 
-table{
+table {
     width: 60%;
     margin: auto;
     font-size: 1.5em;
-    border : 5px groove blue;
+    border: 5px groove #43425D;
 }
 
-td{
+td {
     border-top: 1px dashed blue;
 }
-th{
+
+th {
     border: 2px solid red;
 }
