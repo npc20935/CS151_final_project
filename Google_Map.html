@@ -11,8 +11,8 @@
     <title>期末專題</title>
 
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="Date/style.css" rel="stylesheet">
     <link href="carousel.css" rel="stylesheet">
+    <link href="Google_Map/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -31,7 +31,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="random-select.html">Poker Card</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="Date.html">Date</a>
                     </li>
                     <li class="nav-item">
@@ -43,8 +43,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="Youtube.html">Youtube</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">每日外幣匯率</a>
+                    <li class="nav-item active">
+                        <a class="nav-link disabled" href="#">Google Map</a>
                     </li>
                 </ul>
             </div>
@@ -54,13 +54,10 @@
     <main role="main">
         <div class="container marketing">
             <hr class="featurette-divider">
-            <h1>每日外幣匯率</h1>
-            <table id="exchange_rate"></table>
+            <h1>Google Map</h1>
             <br>
+            <div id="map"></div>
             <hr><br>
-            <input type="date" id="inputDate">
-            <hr class="featurette-divider">
-
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
             <script>
                 window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')
@@ -68,8 +65,9 @@
             <script src="assets/js/vendor/popper.min.js"></script>
             <script src="dist/js/bootstrap.min.js"></script>
             <script src="assets/js/vendor/holder.min.js"></script>
-            <script src="Date/topic.js"></script>
-            <script src="Date/main.js"></script>
+            <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClzYbEmU0Z2tjcBcUuOdZFFGJ_VqU8R18&libraries=&v=weekly"></script>
+            <script src="Google_Map/main.js"></script>
 </body>
 
 </html>
