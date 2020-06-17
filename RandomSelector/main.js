@@ -4,5 +4,8 @@ $(document).ready(function() {
         let randomChlidNumber = Math.floor(Math.random() * numberOfListItem);
         $("#random-result").text($("#choices li").eq(randomChlidNumber).text());
         $("#random-pic").attr("src", pictures[randomChlidNumber]);
+        if (randomChlidNumber == 4) {
+            window.alert("中獎！！！")
+        };
     });
 });
