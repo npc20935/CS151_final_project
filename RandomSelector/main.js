@@ -5,7 +5,7 @@ $(document).ready(function() {
         $("#random-result").text($("#choices li").eq(randomChlidNumber).text());
         $("#random-pic").attr("src", pictures[randomChlidNumber]);
         if (randomChlidNumber == 4) {
-            window.alert("中獎！！！")
+            alert("中獎！！！")
         };
     });
 });
