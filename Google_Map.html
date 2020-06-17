@@ -1,5 +1,4 @@
 <!doctype html>
-<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -12,7 +11,7 @@
 
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="carousel.css" rel="stylesheet">
-    <link href="Google_Map/style.css" rel="stylesheet" type="text/css">
+    <link href="google_map/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -53,11 +52,12 @@
 
     <main role="main">
         <div class="container marketing">
-            <hr class="featurette-divider">
-            <h1>Google Map</h1>
+            <br><br>
             <br>
-            <div id="map"></div>
+            <h1>Google Map</h1>
+            <h3>元智大學</h3>
             <hr><br>
+            <div id="map"></div>
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
             <script>
                 window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')
@@ -65,9 +65,8 @@
             <script src="assets/js/vendor/popper.min.js"></script>
             <script src="dist/js/bootstrap.min.js"></script>
             <script src="assets/js/vendor/holder.min.js"></script>
-            <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClzYbEmU0Z2tjcBcUuOdZFFGJ_VqU8R18&libraries=&v=weekly"></script>
-            <script src="Google_Map/main.js"></script>
+            <script src="google_map/main.js"></script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPDGOdQPeQCTfYDvm_KAvIG0d0WnR3xx4&callback=initMap"></script>
 </body>
 
 </html>
